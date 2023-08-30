@@ -1,5 +1,6 @@
 :root {
     --pink: #f14e95;
+    --darkmagenta: #8B008B;
     --bg: #0a0a0a;
     --shadow: 0 2px 2px rgb(0 0 0 / 0.5);
 }
@@ -38,7 +39,7 @@ body {
 }
 
 .hero h1 {
-    font-family: 'Sacramento', cursive;
+    font-family: 'Orbitron', cursive;
     font-size: 6rem;
 }
 
@@ -53,14 +54,14 @@ body {
 }
 
 .hero a {
-    color: var(--pink);
+    color: var(--darkmagenta);
     background-color: white;
     box-shadow: var(--shadow);
 }
 
 
 .hero a:hover {
-    background-color: var(--pink);
+    background-color: var(--darkmagenta);
     color: white;
 }
 
@@ -77,7 +78,7 @@ body {
 
 .mynavbar .navbar-brand, 
 .mynavbar .offcanvas-title {
-    font-family: 'Sacramento', cursive;
+    font-family: 'Orbitron', cursive;
     font-size: 3.2rem;
     font-weight: bold;
 }
@@ -88,7 +89,7 @@ body {
 
 /* membuat ornamen buat di slide selajutnya */
 .home {
-    background-image: url(img/florapatern.jpg);
+    background-image: url(img/Acara\ Pernikahan.png);
     background-size: cover;
     min-height: 100vh;
     margin-top: -6rem;
@@ -99,8 +100,8 @@ body {
 
 /* tulisan bagian home */
 .home h2 {
-    color: var(--pink);
-    font-family: 'Sacramento';
+    color: var(--darkmagenta);
+    font-family: 'Orbitron';
     font-size: 5rem;
     font-weight: bold;
 }
@@ -122,9 +123,9 @@ body {
 }
 
 .home .couple h3 {
-    font-family: 'Sacramento';
+    font-family: 'Orbitron';
     font-size: 2.4rem;
-    color: var(--pink);
+    color: var(--darkmagenta);
 }
 
 .home .couple img {
@@ -146,7 +147,7 @@ body {
 
 .home .heart i {
     margin: auto;
-    color: var(--pink);
+    color: var(--darkmagenta);
 }
 
 
@@ -159,8 +160,8 @@ body {
 }
 
 .info h2 {
-    color: var(--pink);
-    font-family: 'Sacramento';
+    color: var(--darkmagenta);
+    font-family: 'Orbitron';
     font-size: 5rem;
     font-weight: bold;
 }
@@ -199,8 +200,8 @@ body {
 
 /* tulisan bagian Story */
 .story h2 {
-    color: var(--pink);
-    font-family: 'Sacramento';
+    color: var(--darkmagenta);
+    font-family: 'Orbitron';
     font-size: 5rem;
     font-weight: bold;
 }
@@ -208,11 +209,12 @@ body {
 .story {
     padding-top: 10rem;
     padding-bottom: 8rem;
+    background-image: url(img/Cerita\ Kami.jpg);
 }
 
 .story span {
     text-transform: uppercase;
-    color: #666;
+    color: #0a0a0a;
     font-size: 0.9rem;
     letter-spacing: 1px;
     display: block;
@@ -259,14 +261,14 @@ body {
     clear: both;
 }
 
-.timeline li .timeline-image {  /* bikin buletan buat nyimpen foto*/
+.timeline li .timeline-image {  /* bikin kotak buat nyimpen foto*/
     width: 160px;
     height: 160px;
     background-color: #ccc;
     position: absolute;
     left: 50%;
+    border-radius: 10px; 
     transform: translateX(-50%);
-    border-radius: 50%;
     background-size: cover; /* biar foongnya ngikutin template*/
     background-position: center; /* biar fotonya posisim  tengah*/
     background-repeat: no-repeat; /* biar fotonya ga berulang*/
@@ -327,8 +329,8 @@ body {
 
 /* tulisan bagian Gallery */
 .gallery h2 {
-    color: var(--pink);
-    font-family: 'Sacramento';
+    color: var(--darkmagenta);
+    font-family: 'Orbitron';
     font-size: 5rem;
     font-weight: bold;
 }
@@ -356,8 +358,8 @@ body {
 
 /* tulisan bagian RSVP*/
 .rsvp h2 {
-    color: var(--pink);
-    font-family: 'Sacramento';
+    color: var(--darkmagenta);
+    font-family: 'Orbitron';
     font-size: 4.5rem;
     font-weight: bold;
 }
@@ -380,22 +382,22 @@ body {
 }
 
 .rsvp button {
-    background-color: var(--pink);
+    background-color: var(--darkmagenta);
     color: white;
-    border: 1px solid var(--pink);
+    border: 1px solid var(--darkmagenta);
 }
 
 .rsvp button:hover {
     background-color: white;
-    color: var(--pink);
+    color: var(--darkmagenta);
     border: 1px solid white;
 }
 
 
 /* tulisan bagian Gifts*/
 .gifts h2 {
-    color: var(--pink);
-    font-family: 'Sacramento';
+    color: var(--darkmagenta);
+    font-family: 'Orbitron';
     font-size: 4.5rem;
     font-weight: bold;
 }
@@ -409,11 +411,12 @@ body {
 .gifts {
     padding-top: 10rem;
     padding-bottom: 8rem;
+    background-color: #f5f5f5;
 }
 
 .gifts span {
     text-transform: uppercase;
-    color: #666;
+    color: #0a0a0a;
     font-size: 0.9rem;
     letter-spacing: 1px;
     display: block;
@@ -423,8 +426,8 @@ body {
 
 /* Footer*/
 footer {
-    padding: 3rem;
-    background-color: var(--pink);
+    padding: 5px;
+    background-color: var(--darkmagenta);
     color: white;
 }
 

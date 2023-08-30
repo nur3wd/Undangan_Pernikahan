@@ -1,0 +1,2 @@
+Ukuran fotonya harus vertikal
+sizenya = 800 x 1200

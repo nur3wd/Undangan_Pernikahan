@@ -1,0 +1,2 @@
+Ukuran fotonya harus Horizontal
+sizenya = 1230px x 692px
